@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+:root {
+    --bg-color: hsl(170.6, 88.5%, 34.1%);
+}
+
+
+.slider-container {
+    margin-top: 10px;
+}
+
+#welcome {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#welcome strong {
+    font-size: 3rem;
+    text-shadow: 15px 10px 20px black;
+}
+
+@media only screen and (max-width:600px) {
+    #welcome strong {
+        font-size: 2rem;
+    }
+}
+
+#card_header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#card_title {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+
+#card_title strong {
+    font-size: 2rem;
+    text-shadow: 15px -5px 20px black;
+}
+
+@media only screen and (max-width:600px) {
+    #card_title strong {
+        font-size: 1.5rem;
+    }
+}
+
+
+#card_container {
+    border: 5px solid black;
+    padding: 1rem;
+}
+
+#advertisement {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#advertisement img {
+    width: 60vw;
+}
+
+#advertisement strong {
+    font-size: 4rem;
+    font-family: 'Nosifer', sans-serif;
+}
+
+@media only screen and (max-width:1250px) {
+    #advertisement strong {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width:990px) {
+    #advertisement strong {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:580px) {
+    #advertisement{
+        flex-direction: column;
+    }
+
+    #advertisement strong
+    {
+        font-size: 1.5rem;
+    }
+}
+
+#fashion_1,#fashion_2
+{
+    text-align: center;
+}
+
+#fashion_1 p{
+    display: inline-block;
+    margin-bottom: 0;
+}
+#fashion_2 p{
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+#fashion_1 img
+{
+    width: 50vw;
+}
+#fashion_2 img
+{
+    width: 50vw;
+}
+
+#logo
+{
+    text-align: center;
+}
+
+#logo p
+{
+    display: inline-block;
+}
+
+#logo img{
+    width: 50vw;
+}
+
+.stylish img
+{
+    width: 30vw;
+}
